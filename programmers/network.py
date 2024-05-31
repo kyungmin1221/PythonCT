@@ -22,5 +22,5 @@ def BFS(idx , visited, n, computers):
                 queue.append(a)
 
 n = 3
-computers = [[1, 1, 0], [1, 1, 1], [0, 1, 1]]
+computers = [[1, 1, 0], [1, 1, 0], [0, 0, 1]]
 print(solution(n, computers))
