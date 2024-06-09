@@ -12,6 +12,7 @@ def solution(n, computers):
     return answer
 
 def BFS(idx , visited, n, computers):
+
     queue = deque()
     queue.append(idx)
     while queue:
